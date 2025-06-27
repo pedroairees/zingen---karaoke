@@ -32,8 +32,12 @@
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
-
-    --px-lg: 1.5rem; /*padsing do eixo x*/
+    /*padding do eixo y*/
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+    /*padding do eixo x*/
+    --px-lg: 1.5rem; 
 }
 
 html {
@@ -85,5 +89,9 @@ ul[role="list"] {
         --fs-2xl: 4rem;
 
         --px-lg: 2rem;
+        /*margin do eixo y*/
+        --my-base: 1.5rem;
+        --my-lg: 2.5rem;
+        --my-xl: 5rem;
     }
 }
