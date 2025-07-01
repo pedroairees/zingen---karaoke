@@ -23,7 +23,7 @@
     --brand-color-secondary: #FC4A1A;
 
     --ff-sans: 'Inter', system-ui, sans-serif;
-    --fw-base: 500;
+    --fw-base: 400;
     --fw-md: 500;
     --fw-bold: 800;
 
@@ -89,9 +89,8 @@ ul[role="list"] {
         --fs-2xl: 4rem;
 
         --px-lg: 2rem;
-        /*margin do eixo y*/
-        --my-base: 1.5rem;
-        --my-lg: 2.5rem;
-        --my-xl: 5rem;
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
     }
 }
