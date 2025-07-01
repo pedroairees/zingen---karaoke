@@ -36,3 +36,26 @@
     padding: 1rem 2rem;
     font-size: 1.125rem;
 }
+
+.btn[aria-label] {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border-radius: inherit;
+        background-color: var(--bg-color);
+        inset: .0938rem;
+    }
+
+    &::after {
+        content: attr(aria-label);
+        position: relative;
+        background: var(--btn-bg-color);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        z-index: 2;
+    }
+}
