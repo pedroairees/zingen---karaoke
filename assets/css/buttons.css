@@ -49,13 +49,13 @@
     }
 
     &::after {
-        content: attr(aria-label);
+        content: attr(aria-label); /* attr pega o valor de um atributo do html*/
         position: relative;
         background: var(--btn-bg-color);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
-        z-index: 2;
+        z-index: 1;
     }
 }
