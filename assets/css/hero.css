@@ -1,0 +1,33 @@
+#hero {
+    text-align: center;
+    & img[src*="music-bars"] {
+        width: 12.875rem;
+    }
+    & h1 {
+        margin: 1rem 0 .5rem;
+    }
+    & p {
+        font: var(--fw-md) var(--fs-lg)/1.75rem var(--ff-sans);
+        color: var(--text-color-secondary);
+    }
+    & .buttons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media (width >= 80em) {
+    #hero {
+        padding-bottom: 12rem;
+        background: url(../image/bg-hero-desktop.svg) no-repeat bottom center/contain;
+        & .buttons {
+            margin-top: 3rem;
+        }
+        & img[src*="music-bars"] {
+            width: 25.75rem
+        }
+        & h1 {
+            margin: 1.5rem 0 1rem;
+        }
+    }
+}
