@@ -1,0 +1,37 @@
+#smartphones {
+    background: url(../image/bg-hero-mobile.svg) top/cover;
+}
+
+section {
+    & header {
+        & strong{
+            color: var(--brand-color-primary);
+            font: var(--fw-md) var(--fs-sm)/.875rem var(--ff-sans);
+            text-transform: uppercase;
+            letter-spacing: .07rem;
+        }
+
+        & h2 {
+            margin: .5rem 0;
+        }
+    }
+}
+
+#about {
+    background-color: var(--surface-color);
+
+    & .even-columns {
+        gap: 2rem;
+    }
+
+    & p {
+        color: var(--text-color-secondary);
+        font: var(--fw-base) 1rem/1.6rem var(--ff-sans);
+    }
+}
+
+@media (width >= 80em) {
+    #smartphones {
+        display: none;
+    }
+}

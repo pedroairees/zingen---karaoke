@@ -1,5 +1,6 @@
 #hero {
     text-align: center;
+    margin-bottom: 5rem;
     & img[src*="music-bars"] {
         width: 12.875rem;
     }
@@ -18,7 +19,8 @@
 
 @media (width >= 80em) {
     #hero {
-        padding-bottom: 12rem;
+        margin-bottom: 0;
+        height: 100vh;
         background: url(../image/bg-hero-desktop.svg) no-repeat bottom center/contain;
         & .buttons {
             margin-top: 3rem;

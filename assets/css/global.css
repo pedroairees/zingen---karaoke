@@ -94,6 +94,10 @@ ul[role="list"] {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 @media (width >= 80em) {
     :root {
         --fs-lg: 2rem;
