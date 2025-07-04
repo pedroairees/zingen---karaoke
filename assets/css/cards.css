@@ -1,0 +1,14 @@
+.card {
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    border-radius: 1.5rem;
+
+    & h3 {
+        margin-block: 1rem .5rem;
+    }
+
+    & p {
+        font: var(--fw-base) var(--fs-base)/1.6rem var(--ff-sans);
+        color: var(--text-color-secondary);
+    }
+}
