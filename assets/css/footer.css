@@ -1,0 +1,69 @@
+footer {
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-md);
+    line-height: 1.5rem;
+
+    & .container {
+        padding-inline: 3rem;
+    }
+
+    & .container,
+    & .top {
+        gap: 3rem;
+    }
+
+    & nav.even-columns {
+        gap: 4rem;
+    }
+
+    & .title {
+        color: var(--brand-color-primary);
+        font: var(--fw-md) .75rem/.75rem var(--ff-sans);
+        letter-spacing: 0.96px;
+        text-transform: uppercase;
+    }
+
+    & .top ul {
+        align-content: start;
+    }
+
+    & .bottom {
+        flex-wrap: wrap;
+
+        & > div {
+            margin-right: auto;
+        }
+
+        & > span {
+            font: var(--fw-base) var(--fs-sm)/1.5rem var(--ff-sans);
+        }
+    }
+
+    @media (width >= 80em) {
+        & .container {
+            padding-inline: 0;
+            padding-bottom: 2rem;
+        }
+
+        & .bottom {
+            align-items: center;
+        }
+
+        & .top {
+            grid-template-columns: auto 1fr;
+
+            & nav {
+                margin-left: auto;
+               
+                & ul {
+                    width: 14rem;
+                }
+            }
+        }
+
+        & .container,
+        & .top {
+            gap: 5rem;
+        }
+    }
+}
